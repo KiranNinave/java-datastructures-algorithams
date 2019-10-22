@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd353a0-a4e0-4134-b709-3c043c195e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/B_recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B_recursion/FibonacciSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_algorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_algorithms/BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_algorithms/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_algorithms/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_algorithms/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_algorithms/Radixsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_algorithms/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_algorithms/teminologies.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/MyHashtable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/collision/DirectChaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/collision/DoubleHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/collision/LinearProbing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/collision/QuadraticProbing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/functions/FoddingFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/functions/MidsqureFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/functions/ModuloFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/hashing.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/sort_algorithms/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/sort_algorithms/BucketSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/sort_algorithms/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/sort_algorithms/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/sort_algorithms/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/sort_algorithms/Radixsort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/sort_algorithms/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/sort_algorithms/teminologies.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,26 +58,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithms.BubbleSort" />
-      <module name="java-datastructures-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort_algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyHashtable">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithms.InsertionSort" />
+      <option name="MAIN_CLASS_NAME" value="C_sort_algorithms.InsertionSort" />
       <module name="java-datastructures-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_algorithms.*" />
+          <option name="PATTERN" value="C_sort_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +73,24 @@
       </method>
     </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithms.MergeSort" />
+      <option name="MAIN_CLASS_NAME" value="C_sort_algorithms.MergeSort" />
       <module name="java-datastructures-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_algorithms.*" />
+          <option name="PATTERN" value="C_sort_algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashtable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.MyHashtable" />
+      <module name="java-datastructures-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashing.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +99,11 @@
       </method>
     </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithms.QuickSort" />
+      <option name="MAIN_CLASS_NAME" value="C_sort_algorithms.QuickSort" />
       <module name="java-datastructures-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_algorithms.*" />
+          <option name="PATTERN" value="C_sort_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +112,11 @@
       </method>
     </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithms.SelectionSort" />
+      <option name="MAIN_CLASS_NAME" value="C_sort_algorithms.SelectionSort" />
       <module name="java-datastructures-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_algorithms.*" />
+          <option name="PATTERN" value="C_sort_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHashtable" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
