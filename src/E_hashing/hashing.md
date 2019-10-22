@@ -23,6 +23,11 @@ characteristics of good hash function
 1. it distributes hash values uniformly across the hash table (should produce always unique hash key)
 2. the hash function should use all input data to it
 
+some hashing function
+1. modulo function
+2. midsquare function
+3. fodding function
+
 ## collision
 collision resolution methods
 1. direct chaining 

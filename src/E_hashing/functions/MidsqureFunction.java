@@ -2,6 +2,7 @@ package E_hashing.functions;
 
 import java.util.Random;
 
+// in midsquare function we take square of key then pickup any part of square that has width same as table width
 public class MidsqureFunction {
     private int tableSize;
     public MidsqureFunction(int tableSize){

@@ -1,5 +1,7 @@
 package E_hashing.functions;
 
+// in modulo function we mod key by largest prime number i.e less than table size
+// why prime no? :- because prime number have less factors
 public class ModuloFunction {
     private int modulo;
 

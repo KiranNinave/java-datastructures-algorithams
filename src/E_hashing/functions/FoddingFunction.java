@@ -2,6 +2,7 @@ package E_hashing.functions;
 
 import java.util.Random;
 
+// in fodding function we devide the key into equal pieces of width table size then add them to get hash value
 public class FoddingFunction {
     private int tableSize;
 

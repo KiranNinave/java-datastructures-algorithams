@@ -1,12 +1,12 @@
 
-## hashing is a method of sorting and indexing large amount of data
+## E_hashing is a method of sorting and indexing large amount of data
 ## the idea behind hasing is to allow large amount of data to be index using keys comanly created by formulas
 
 # time complexity of search operation
 # best and ideal case O(1)
 # worst case O(n) (in case of collision)
 
-### hashing terminologies
+### E_hashing terminologies
 
 hash function: hash function is a function that can used to map data of arbitrary size to fixed size
 
@@ -18,10 +18,15 @@ hash table : it is a data structure which implements associative array abstract 
 
 collision : collision occurs when two keys to the hash function produce same hash value
 
-### hashing function
+### E_hashing function
 characteristics of good hash function
 1. it distributes hash values uniformly across the hash table (should produce always unique hash key)
 2. the hash function should use all input data to it
+
+some hashing function
+1. modulo function
+2. midsquare function
+3. fodding function
 
 ## collision
 collision resolution methods
@@ -31,4 +36,4 @@ collision resolution methods
     types
     1. linear probing
     2. quadratic probing
-    3. double hashing
+    3. double E_hashing
