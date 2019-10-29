@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd353a0-a4e0-4134-b709-3c043c195e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/F_tree/tree_problems/InOrderAndPostOrderToTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_tree/tree_problems/InOrderAndPreOrderToTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_tree/tree_problems/PreOrderAndPostOrderToTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_tree/avl_tree/AvlTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_tree/avl_tree/AvlTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_tree/avl_tree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_tree/tree_problems/Haffman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/F_tree/tree_problems/InOrderAndPostOrderToTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/F_tree/tree_problems/InOrderAndPostOrderToTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/F_tree/tree_problems/InOrderAndPostOrderToTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/F_tree/tree_problems/InOrderAndPostOrderToTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/F_tree/tree_problems/InOrderAndPreOrderToTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/F_tree/tree_problems/InOrderAndPreOrderToTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/F_tree/tree_problems/InOrderAndPreOrderToTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-datastructures-algorithms/F_tree/tree_problems/InOrderAndPreOrderToTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_tree/tree_problems/InOrderAndPostOrderToTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_tree/tree_problems/InOrderAndPostOrderToTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_tree/tree_problems/InOrderAndPreOrderToTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_tree/tree_problems/InOrderAndPreOrderToTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_tree/tree_problems/PreOrderAndPostOrderToTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_tree/tree_problems/PreOrderAndPostOrderToTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +56,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreOrderAndPostOrderToTree">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Haffman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_tree.tree_problems.Haffman" />
+      <module name="java-datastructures-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="F_tree.tree_problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InOrderAndPostOrderToTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="F_tree.tree_problems.InOrderAndPostOrderToTree" />
       <module name="java-datastructures-algorithms" />
@@ -75,25 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="F_tree.binary_search_tree.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_tree.avl_tree.Main" />
       <module name="java-datastructures-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="F_tree.binary_search_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyHashtable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E_hashing.MyHashtable" />
-      <module name="java-datastructures-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="E_hashing.functions.*" />
+          <option name="PATTERN" value="F_tree.avl_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Haffman" />
         <item itemvalue="Application.PreOrderAndPostOrderToTree" />
         <item itemvalue="Application.InOrderAndPreOrderToTree" />
         <item itemvalue="Application.InOrderAndPostOrderToTree" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MyHashtable" />
       </list>
     </recent_temporary>
   </component>

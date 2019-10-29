@@ -1,5 +1,5 @@
 package F_tree.tree_problems;
-
+// this is O(n^2) solution if we want O(n) then replace searching of root element with hashmap
 // note: only full binary tree i.e node with 0 or 2 child can constructed with pre and post order
 // how its works
 // first we iterate same as in order and post order

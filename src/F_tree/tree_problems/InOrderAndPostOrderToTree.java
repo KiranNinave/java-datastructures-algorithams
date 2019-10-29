@@ -1,5 +1,8 @@
 package F_tree.tree_problems;
 
+
+// this is O(n^2) solution if we want O(n) then replace searching of root element with hashmap
+
 public class InOrderAndPostOrderToTree {
     class TreeNode {
         int val;
