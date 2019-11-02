@@ -77,15 +77,33 @@ public class Tree {
         }
     }
 
+    public void morrisInOrder(){
+        if(this.root != null){
+            this.root.morrisInOrder();
+        }
+    }
+
     public void traversePreOrder(){
         if(this.root != null){
             this.root.traversePreOrder();
         }
     }
 
+    public void morrisPreOrder(){
+        if(this.root != null){
+            this.root.morrisPreOrder();
+        }
+    }
+
     public void traversePostOrder(){
         if(this.root != null){
             this.root.traversePostOrder();
+        }
+    }
+
+    public void stackPostOrder(){
+        if(this.root != null){
+            this.root.stackPostOrder();
         }
     }
 
